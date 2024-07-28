@@ -17,4 +17,4 @@ Key features contributing to the model's success are identified using Permutatio
 
 This repository contains the code and datasets used in the study, offering insights into the prediction of KOA progression and the potential for further research and development in this area.
 
-You can find the full dissertation [here]("https://github.com/somaksanyal97/dissertationProject_Newcastle/blob/main/Dissertation%20Final.pdf").
+You can find the full dissertation [here](https://github.com/somaksanyal97/dissertationProject_Newcastle/blob/main/Dissertation%20Final.pdf).
