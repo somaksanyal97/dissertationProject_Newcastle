@@ -1,22 +1,20 @@
-Knee osteoarthritis (KOA) is a common chronic disease with no assured
- cure till date in which patients suffer from pain and irreversible progressive struc
-tural damage of cartilage and joints. In order to charter an effective clinical path
- and also for the development of disease-modifying osteoarthritis drugs (DMOADs),
- it is essential that physicians and researchers need to ascertain the nature and ex
-tent of future progression of the disease with reasonable accuracy. For the purpose,
- formulation of some robust techniques for such prediction emerges expedient. In
- this direction, the present study approaches the prediction of disease progression in
- KOA patients as a multi-class classification problem based on nearly 300 KOA pa
-tients’ baseline feature datasets along with their progression measures (measured for
- a period of 2 years) as class labels. These datasets are taken from the APPROACH
- (Applied Public-Private Research enabling OsteoArthritis Clinical Headway) study,
- internally joined in combinations and are used to multiple machine learning (ML)
- algorithms (Random Forest, k Nearest Neighbors, Artificial Neural Networks, De
-cision Trees) to identify the best combinations of features and corresponding ML
- model that would give the most accurate predictions measured by F1 score macro
- and accuracy. In this study, the best model in terms of accuracy (66.6%) and macro
- F1 score (36.1%) was obtained from joining the Tomography and Questionnaires
- dataset and training on Random Forest classifier. The most important features
- contributing to this result are identified using Permutation Feature Importance.
- The individual contributions of each of these top features to the prediction are also
- visually represented with summary plots using SHAP.
+# Knee Osteoarthritis Progression Prediction
+
+Knee osteoarthritis (KOA) is a prevalent chronic disease characterized by pain and progressive, irreversible structural damage to cartilage and joints. Despite the absence of a definitive cure, understanding and predicting the future progression of KOA is crucial for effective clinical management and the development of disease-modifying osteoarthritis drugs (DMOADs). 
+
+This study aims to predict the progression of KOA as a multi-class classification problem, utilizing baseline feature datasets from approximately 300 KOA patients, along with their progression measures recorded over a two-year period. The data is sourced from the APPROACH (Applied Public-Private Research enabling OsteoArthritis Clinical Headway) study and combines multiple datasets internally.
+
+We apply various machine learning (ML) algorithms, including Random Forest, k-Nearest Neighbors, Artificial Neural Networks, and Decision Trees, to identify the best feature combinations and corresponding ML models. These models are evaluated based on their accuracy and macro F1 score. The most effective model, achieving an accuracy of 66.6% and a macro F1 score of 36.1%, resulted from combining the Tomography and Questionnaires datasets and training them on a Random Forest classifier.
+
+Key features contributing to the model's success are identified using Permutation Feature Importance. Additionally, the individual contributions of these top features are visually represented with summary plots using SHAP (SHapley Additive exPlanations).
+
+## Key Findings
+- **Best Model:** Random Forest classifier
+- **Accuracy:** 66.6%
+- **Macro F1 Score:** 36.1%
+- **Important Features:** Identified using Permutation Feature Importance
+- **Feature Contributions:** Visualized with SHAP summary plots
+
+This repository contains the code and datasets used in the study, offering insights into the prediction of KOA progression and the potential for further research and development in this area.
+
+You can find the full dissertation [here]("https://github.com/somaksanyal97/dissertationProject_Newcastle/blob/main/Dissertation%20Final.pdf").
